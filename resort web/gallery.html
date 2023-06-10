@@ -1,0 +1,63 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GALLERY</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/aos.css" />
+  </head>
+  <body>
+    <nav>
+      <ul id="navi">
+        <li>
+          <a href="index.html">HOME</a>
+        </li>
+        <li>
+          <a href="aboutUs.html">ABOUT US</a>
+        </li>
+        <li>
+          <a href="ourRooms.html">OUR ROOMS</a>
+        </li>
+        <li class="active">
+          <a href="gallery.html#slider-image1">GALLERY</a>
+        </li>
+        <li>
+          <a href="contactUs.html">CONTACT US</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="row gallery1">
+      <div id="gallerySlide">
+        <h1>RESORT PICTURES</h1>
+        <div class="slide-container">
+          <span id="slider-image1"></span>
+          <span id="slider-image2"></span>
+          <span id="slider-image3"></span>
+          <span id="slider-image4"></span>
+          <span id="slider-image5"></span>
+
+          <div class="slider">
+            <img src="images/poolsidekubo.jpg" class="slider-image" />>
+            <img src="images/pool1.jpg" class="slider-image" />>
+            <img src="images/house1.jpg" class="slider-image" />>
+            <img src="images/pool2.jpg" class="slider-image" />>
+            <img src="images/pool3.jpg" class="slider-image" />>
+          </div>
+        </div>
+        <a href="#slider-image1" class="slider-button">1</a>
+        <a href="#slider-image2" class="slider-button">2</a>
+        <a href="#slider-image3" class="slider-button">3</a>
+        <a href="#slider-image4" class="slider-button">4</a>
+        <a href="#slider-image5" class="slider-button">5</a>
+      </div>
+    </div>
+
+    <script src="js/aos.js"></script>
+    <script>
+      AOS.init({
+        once: false,
+      });
+    </script>
+  </body>
+</html>
